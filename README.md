@@ -10,7 +10,18 @@ UPI Guardian is an end-to-end FinTech risk intelligence and regulatory complianc
 * **2,060+ Multi-City Transactions Analyzed** across realistic behavioral, device, and time-of-day distributions.
 * **₹4,591,124 (₹45.9 Lakhs) in Fraudulent Losses Prevented** via real-time tiered risk intervention (`BLOCK_FREEZE`, `HOLD_24H`, `CHALLENGE_2FA`, and biometric step-up authentication).
 * **Zero-Latency Regulatory Auditing:** Converts natural-language or spoken investigator questions into guarded read-only SQL queries and maps flagged activity directly to RBI & AML policy codes (`AML-101`, `AML-204`, `RBI-SCAM-09`, `KYC-302`, `SAR-500`).
+---
 
+## 📸 Live Dashboard & Voice Copilot Previews
+
+### 1. Executive Fraud Prevention & Regional Analytics
+![Executive Fraud Dashboard](dashboard_overview.png)
+
+### 2. Live Gemini Voice Query & Text-to-SQL Investigation
+![Voice Query and SQL Results](voice_copilot_demo.png)
+
+### 3. Automated RBI/AML Compliance Briefing & Audio Readout
+![Compliance Briefing and Audio](compliance_briefing_audio.png)
 ---
 
 ## 🏗️ System Architecture (4-Phase Pipeline)
