@@ -15,20 +15,22 @@ UPI Guardian is an end-to-end FinTech risk intelligence and regulatory complianc
 ## 📸 Live Dashboard & Voice Copilot Previews
 
 ### 1. Executive Fraud Prevention & Regional Analytics
-![Executive Fraud KPIs](dashboard_overview1.png)
-![Regional Fraud Breakdown & Prevention Split](dashboard_overview2.png)
+![Executive Fraud KPIs](01_dashboard_overview1.png)
+![Regional Fraud Breakdown & Prevention Split](01_dashboard_overview2.png)
 
 ### 2. Live Gemini Voice Query & Text-to-SQL Investigation
-![Voice Query and SQL Results](voice_copilot_demo.png)
+![Voice Query Input & Transcription](02_voice_copilot_demo1.png)
+![Guarded Text-to-SQL & Results Table](02_voice_copilot_demo2.png)
 
 ### 3. Automated RBI/AML Compliance Briefing & Audio Readout
-![Compliance Briefing Results](compliance_briefing_audio.png)
-![Transaction Rule Audit](compliance_briefing_audio1.png)
-![Spoken Audio Readout](compliance_briefing_audio2.png)
+![Compliance Briefing Header](03_compliance_briefing_audio1.png)
+![Transaction Rule Audit](03_compliance_briefing_audio2.png)
+![Detailed Regulatory Breakdown](03_compliance_briefing_audio3.png)
+![Spoken Audio Readout](03_compliance_briefing_audio4.png)
 
 ### 4. Active RBI & AML Regulatory Ruleset & Live Transaction Ledger
-![Active RBI and AML Ruleset](regulatory_ledger.png)
-![Scored Transaction Ledger](regulatory_ledger1.png)
+![Active RBI and AML Ruleset](04_regulatory_ledger1.png)
+![Scored Transaction Ledger](04_regulatory_ledger2.png)
 
 ---
 
