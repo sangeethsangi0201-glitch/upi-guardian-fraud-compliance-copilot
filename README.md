@@ -15,15 +15,21 @@ UPI Guardian is an end-to-end FinTech risk intelligence and regulatory complianc
 ## 📸 Live Dashboard & Voice Copilot Previews
 
 ### 1. Executive Fraud Prevention & Regional Analytics
-![Executive Fraud Dashboard](dashboard_overview.png)
+![Executive Fraud KPIs](dashboard_overview1.png)
+![Regional Fraud Breakdown & Prevention Split](dashboard_overview2.png)
 
 ### 2. Live Gemini Voice Query & Text-to-SQL Investigation
 ![Voice Query and SQL Results](voice_copilot_demo.png)
 
 ### 3. Automated RBI/AML Compliance Briefing & Audio Readout
-![Compliance Briefing and Audio](compliance_briefing_audio.png)
+![Compliance Briefing Results](compliance_briefing_audio.png)
+![Transaction Rule Audit](compliance_briefing_audio1.png)
+![Spoken Audio Readout](compliance_briefing_audio2.png)
+
 ### 4. Active RBI & AML Regulatory Ruleset & Live Transaction Ledger
-![Regulatory Ruleset & Live Ledger](regulatory_ledger.png)
+![Active RBI and AML Ruleset](regulatory_ledger.png)
+![Scored Transaction Ledger](regulatory_ledger1.png)
+
 ---
 
 ## 🏗️ System Architecture (4-Phase Pipeline)
