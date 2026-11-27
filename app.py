@@ -187,4 +187,26 @@ with tab2:
                                 f"**Top Flagged Entity:** `{user_str}`{txn_str} with **₹{amt_val:,.2f}**{city_str}.\n\n"
                                 f"{rule_detail}"
                                 "* **SAR-500:** Confirmed fraud > ₹50,000 requires filing a Suspicious Activity Report within 24 hours."
-                            )
+                             )
+
+                        st.markdown("### 🤖 Compliance Briefing")
+                        st.markdown(briefing)
+
+                        # Full-Length Voice Audio Readout (Cloud-Safe)
+                        try:
+                            tts = gTTS(text=briefing.replace("*", "").replace("#", "").replace("`", ""), lang="en")
+                            audio_fp = io.BytesIO()
+                            tts.write_to_fp(audio_fp)
+                            st.audio(audio_fp.getvalue(), format="audio/mp3")
+                        except Exception as audio_err:
+                            st.caption(f"🔊 Audio readout note: {audio_err}")
+                    else:
+                        st.info("No matching transactions found for that query.")
+                except Exception as e:
+                    st.error(f"Query Execution Error: {e}")
+
+with tab3:
+    st.subheader("📜 Active RBI & AML Regulatory Ruleset")
+    st.dataframe(policies_df, use_container_width=True)
+    st.subheader("🗄️ Scored Transaction Ledger Preview")
+    st.dataframe(df.head(50), use_container_width=True)
