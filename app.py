@@ -202,8 +202,6 @@ with tab2:
                             st.caption(f"🔊 Audio readout note: {audio_err}")
                     else:
                         st.info("No matching transactions found for that query.")
-    except Exception as e:
-        st.error(f"Query Execution Error: {e}")
 
 with tab3:
     st.subheader("📜 Active RBI & AML Regulatory Ruleset")
