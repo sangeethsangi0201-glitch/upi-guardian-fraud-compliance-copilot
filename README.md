@@ -23,7 +23,7 @@ UPI Guardian is an end-to-end FinTech risk intelligence and regulatory complianc
 ### 3. Automated RBI/AML Compliance Briefing & Audio Readout
 ![Compliance Briefing and Audio](compliance_briefing_audio.png)
 ### 4. Active RBI & AML Regulatory Ruleset & Live Transaction Ledger
-![Regulatory Ruleset & Live Ledger] (regulatory_ledger.png)
+![Regulatory Ruleset & Live Ledger](regulatory_ledger.png)
 ---
 
 ## 🏗️ System Architecture (4-Phase Pipeline)
